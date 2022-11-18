@@ -1,0 +1,25 @@
+{
+  "name": "@dudaji/cra-template-todo-app",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "description": "Simple demo todo app as initial project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dudaji/cra-template-todo-app"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/dudaji/cra-template-todo-app/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
