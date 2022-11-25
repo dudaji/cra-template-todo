@@ -13,12 +13,12 @@ function List() {
   });
   const { mutateAsync: deleteTodo } = useDeleteTodo({
     onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: useFetchTodos.extractKey });
+      queryClient.invalidateQueries({ queryKey: useFetchTodos.extractKey() });
     },
   });
   const { mutateAsync: updateTodoStatus } = useUpdateTodoStatus({
     onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: useFetchTodos.extractKey });
+      queryClient.invalidateQueries({ queryKey: useFetchTodos.extractKey() });
     },
   });
 

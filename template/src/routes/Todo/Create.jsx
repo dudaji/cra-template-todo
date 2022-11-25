@@ -8,7 +8,7 @@ function Create() {
   const { mutateAsync: createTodo } = useCreateTodo({
     onSuccess: () => {
       setTask("");
-      queryClient.invalidateQueries({ queryKey: useFetchTodos.extractKey });
+      queryClient.invalidateQueries({ queryKey: useFetchTodos.extractKey() });
     },
   });
 
