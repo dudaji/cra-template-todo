@@ -1,8 +1,8 @@
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
-export default function Root() {
+function Root() {
   return (
-    <div style={{}}>
+    <div>
       <div
         id="sidebar"
         style={{
@@ -16,10 +16,10 @@ export default function Root() {
         <nav>
           <ul style={{ listStyle: "none" }}>
             <li>
-              <a href="counter">Counter</a>
+              <Link to="counter">Counter</Link>
             </li>
             <li>
-              <a href="todo">Todo</a>
+              <Link to="todo">Todo</Link>
             </li>
           </ul>
         </nav>
@@ -30,3 +30,5 @@ export default function Root() {
     </div>
   );
 }
+
+export default Root;
