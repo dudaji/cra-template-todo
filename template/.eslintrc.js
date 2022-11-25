@@ -38,6 +38,7 @@ module.exports = {
     "consistent-return": "warn",
     "react/jsx-one-expression-per-line": "off", // 한 줄에 다중 표현식 허용
     "react/react-in-jsx-scope": "off", // require bebel>=7.9.0 (React17)
+    "react/prop-types": "warn",
   },
   settings: {
     "import/resolver": {

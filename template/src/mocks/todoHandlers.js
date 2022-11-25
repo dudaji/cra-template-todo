@@ -3,7 +3,7 @@ import { rest } from "msw";
 import generateRandomString from "utils/generateRandomString";
 
 const todos = {
-  todo1: { task: "build an API", status: false },
+  todo1: { task: "task1", status: false },
   todo2: { task: "task2", status: false },
   todo3: { task: "task3", status: false },
 };

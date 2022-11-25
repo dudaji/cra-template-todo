@@ -1,10 +1,11 @@
+import PageTitle from "components/PageTitle";
 import Create from "./Create";
 import List from "./List";
 
 function Todo() {
   return (
     <div>
-      <h1>Todo List</h1>
+      <PageTitle title="Todo List" />
       <Create />
       <List />
     </div>
